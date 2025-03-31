@@ -1,0 +1,95 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+/* Header */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1px;
+}
+
+/* Logo (Left Side) */
+.logo {
+    flex-shrink: 0;
+}
+
+.logo img {
+    width: 80px;
+}
+
+/* Gym Name (Centered) */
+.gym-name {
+    font-size: 28px;
+    font-weight: bold;
+    flex-grow: 1;
+    text-align: center;
+    color: #FFD700;
+}
+
+/* Navigation Bar */
+nav {
+    background: white;
+    padding: 3px;
+    display: flex;
+    justify-content: flex-start; /* Align to left */
+    padding-left: 30px;
+    border-radius: 10px;
+}
+
+nav button {
+    background: #000000;
+    color: white;
+    padding: 8px 18px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+}
+nav button:hover {
+    background: #FFD700;
+    color: black;
+}
+nav button:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 4px 10px rgba(255, 215, 0, 0.5);
+}
+
+
+
+body{
+	  background-color: #000000;
+	
+}
+.col-md-6{
+	margin-top: 110px !important;
+	#background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+	background-color: #FFFFE0;
+	
+}
+input[type=button]
+{
+		width: 100%;
+		color:black;
+		background-color: #FFD700;
+		font-weight:bolder;
+		border:3px solid black;
+}
+input[type=text]
+{
+	width:100%;
+}
+h1{
+	font-weight:bolder;
+	margin-top:25px;
+	color: black;
+	
+}
